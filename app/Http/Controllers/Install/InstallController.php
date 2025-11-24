@@ -153,10 +153,8 @@ class InstallController extends Controller
             $validatedData = $request->validate(
                 [
                     'APP_NAME' => 'required',
-                    'ENVATO_PURCHASE_CODE' => 'required',
                     'DB_DATABASE' => 'required',
                     'DB_USERNAME' => 'required',
-                    'DB_PASSWORD' => 'required',
                     'DB_HOST' => 'required',
                     'DB_PORT' => 'required',
                 ],
