@@ -4,7 +4,7 @@
 @section('content')
 <div class="container">
     <div class="row">
-        <h3 class="text-center">Instalación SuperPos <small>Step 2 of 3</small></h3>
+        <h3 class="text-center">Instalación Punto de venta sistemas estrategicos <small>Step 2 of 3</small></h3>
 
         <div class="col-md-8 col-md-offset-2">
           <hr/>
@@ -40,7 +40,7 @@
                   <div class="col-md-6">
                     <div class="form-group">
                         <label for="app_name">Nombre de la aplicación:*</label>
-                        <input type="text" class="form-control" name="APP_NAME" id="app_name" placeholder="SuperPos" required>
+                        <input type="text" class="form-control" name="APP_NAME" id="app_name" placeholder="NombreNegocio" required>
                     </div>
                   </div>
                   
@@ -50,22 +50,6 @@
                         <input type="text" name="APP_TITLE" class="form-control" id="app_title">
                     </div>
                   </div>
-
-                <h4> License Details <small class="text-danger">Asegúrese de proporcionar la información correcta de Compra en Kosari</small></h4>
-                <hr/>
-
-                <div class="col-md-4">
-                    <div class="form-group">
-                        <label for="envato_purchase_code">Codigo Compra: 85457857*</label>
-                        <input type="password" name="ENVATO_PURCHASE_CODE" required class="form-control" id="envato_purchase_code">
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="form-group">
-                        <label for="envato_username">Kosari Username:*</label>
-                        <input type="text" name="ENVATO_USERNAME" required class="form-control" id="envato_username">
-                    </div>
-                </div>
                 <div class="col-md-4">
                     <div class="form-group">
                         <label for="envato_email">Your Email:</label>
@@ -119,7 +103,7 @@
                   <div class="col-md-6">
                     <div class="form-group">
                         <label for="db_password">Database Password:*</label>
-                        <input type="password" class="form-control" id="db_password" name="DB_PASSWORD" required>
+                        <input type="password" class="form-control" id="db_password" name="DB_PASSWORD">
                     </div>
                   </div>
 
@@ -141,7 +125,7 @@
                   <div class="col-md-6">
                     <div class="form-group">
                         <label for="MAIL_FROM_ADDRESS">Default from address:*</label>
-                        <input type="email" class="form-control" id="MAIL_FROM_ADDRESS" name="MAIL_FROM_ADDRESS" placeholder="hello@ultimatepos.com" required>
+                        <input type="email" class="form-control" id="MAIL_FROM_ADDRESS" name="MAIL_FROM_ADDRESS" placeholder="hello@ultimatepos.com" >
                     </div>
                   </div>
 
