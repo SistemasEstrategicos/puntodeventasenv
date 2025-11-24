@@ -49,6 +49,9 @@ class AppServiceProvider extends ServiceProvider
             \App::setLocale(request()->get('lang'));
         }
 
+        // Idioma por defecto: español
+        \App::setLocale('es');
+
         //In Laravel 5.6, Blade will double encode special characters by default. If you would like to maintain the previous behavior of preventing double encoding, you may add Blade::withoutDoubleEncoding() to your AppServiceProvider boot method.
         Blade::withoutDoubleEncoding();
 

@@ -4,7 +4,7 @@
 @section('content')
 <div class="container">
     <div class="row">
-        <h1 class="page-header text-center">SuperPos</h1>
+        <h1 class="page-header text-center">Sistemas Estrategicos</h1>
 
         <div class="col-md-8 col-md-offset-2">
           <h3 class="text-success">Great! <br/>La aplicación se ha instalado correctamente.</h3>
